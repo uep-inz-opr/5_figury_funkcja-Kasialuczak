@@ -46,6 +46,8 @@ for i in range(int(ilosc)):
   liczba3=Trojkat(float(figura[0]),float(figura[1]),float(figura[2]))
   liczba3.poletrojkata()
   c=round(c+liczba3.suma3,2)
+ elif len(figura) ==4
+  return str("Błąd: można podać maksymalnie 3 liczby”)
 
 suma=round((a+b+c),2)
 print(suma)
