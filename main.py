@@ -50,4 +50,4 @@ for i in range(int(ilosc)):
   print("Błąd: można podać maksymalnie 3 liczby")
 
 suma=round((a+b+c),2)
-print(suma)
+print(suma or "Błąd: można podać maksymalnie 3 liczby")
